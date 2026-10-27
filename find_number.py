@@ -1,20 +1,15 @@
 def find_number(numbers, target):
-    if not numbers:
-        return -1
 
     chap = 0
 
-    for number in numbers:
-        if number == target:
+    while chap < len(numbers):
+        if numbers[chap] == target:
             return chap
         chap += 1
+        
     return -1
 
-
-target_number = [10, 25, 45, 30]
-
-
-print(find_number(target_number, 30))
-print(find_number(target_number, 25))
-print(find_number(target_number, -1))
+print(find_number([10, 25, 30, 45], target = 30))
+print(find_number([5, 8, 5, 9], target = 5))
+print(find_number([10, 20, 30], target = 99))
 
