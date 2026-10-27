@@ -6,3 +6,5 @@ def move_zeros(numbers):
 print(move_zeros([0, 1, 0, 3, 12])) 
 print(move_zeros([1, 2, 3]))       
 print(move_zeros([5, 0, 0]))       
+
+
