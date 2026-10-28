@@ -17,3 +17,7 @@ target_alpha = ["a", "b", "c", "d"]
 
 print(reverse_list(target_number)) 
 print(reverse_list(target_alpha))
+
+
+
+    
