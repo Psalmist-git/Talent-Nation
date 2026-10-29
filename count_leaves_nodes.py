@@ -15,7 +15,7 @@ def count_leaves(root):
     return count_leaves(root.left) + count_leaves(root.right)
 
 
-# Create the binary tree
+# Example of Binary Tree.
 #        8
 #       / \
 #      3   10
